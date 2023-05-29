@@ -1,0 +1,73 @@
+body {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+table, tr {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+thead, tfoot {
+    background-color: #ff7900;
+}
+
+thead th:nth-child(1) {
+    width: 15%;
+}
+
+thead th:nth-child(2) {
+    width: 50%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+.Date, .Numéros, .Etoiles {
+    border-right: 1px solid white;
+}
+
+.Numéros span {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #ff7900;
+    font-weight: bold;
+}
+
+.Etoiles span {
+    padding: 30px;
+    border: 10px;
+    background: transparent url(../images/star-yellow-fill.png) no-repeat center center;
+    background-size: 60%;
+    color: #ff7900;
+    font-weight: bolder;
+}
+
+tbody {
+    background: transparent url(../images/EuroMillion_grid_backgroung.png) no-repeat center center;
+    background-size: cover;
+}
+
+tbody tr:hover {
+    background-color: coral;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+ }
+
+ caption {
+    font-size: 22px;
+    font-weight: bolder;
+    color:white;
+    background: transparent url(../images/Background_Caption.jpg);
+ }
+
+ caption img {
+    padding: 25px 0px 10px 0px;
+ }
